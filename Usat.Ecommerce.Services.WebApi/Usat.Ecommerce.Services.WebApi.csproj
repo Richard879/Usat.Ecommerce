@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>false</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Usat.Ecommerce.Application.Interface\Usat.Ecommerce.Application.Interface.csproj" />
+    <ProjectReference Include="..\Usat.Ecommerce.Application.Main\Usat.Ecommerce.Application.Main.csproj" />
+    <ProjectReference Include="..\Usat.Ecommerce.Domain.Core\Usat.Ecommerce.Domain.Core.csproj" />
+    <ProjectReference Include="..\Usat.Ecommerce.Infraestructure.Repository\Usat.Ecommerce.Infraestructure.Repository.csproj" />
+    <ProjectReference Include="..\Usat.Ecommerce.Transversal.Mapper\Usat.Ecommerce.Transversal.Mapper.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Modules\Swagger\" />
+  </ItemGroup>
+
+</Project>

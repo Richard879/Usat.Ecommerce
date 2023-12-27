@@ -1,0 +1,15 @@
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Data\bin\Release\net8.0\Usat.Ecommerce.Infraestructure.Data.deps.json
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Data\bin\Release\net8.0\Usat.Ecommerce.Infraestructure.Data.dll
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Data\bin\Release\net8.0\Usat.Ecommerce.Infraestructure.Data.pdb
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Data\bin\Release\net8.0\Usat.Ecommerce.Transversal.Common.dll
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Data\bin\Release\net8.0\Usat.Ecommerce.Transversal.Common.pdb
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Data\obj\Release\net8.0\Usat.Ecommerce.Infraestructure.Data.csproj.AssemblyReference.cache
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Data\obj\Release\net8.0\Usat.Ecommerce.Infraestructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Data\obj\Release\net8.0\Usat.Ecommerce.Infraestructure.Data.AssemblyInfoInputs.cache
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Data\obj\Release\net8.0\Usat.Ecommerce.Infraestructure.Data.AssemblyInfo.cs
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Data\obj\Release\net8.0\Usat.Ecommerce.Infraestructure.Data.csproj.CoreCompileInputs.cache
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Data\obj\Release\net8.0\Usat.Ecommerce.Infraestructure.Data.csproj.CopyComplete
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Data\obj\Release\net8.0\Usat.Ecommerce.Infraestructure.Data.dll
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Data\obj\Release\net8.0\refint\Usat.Ecommerce.Infraestructure.Data.dll
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Data\obj\Release\net8.0\Usat.Ecommerce.Infraestructure.Data.pdb
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Data\obj\Release\net8.0\ref\Usat.Ecommerce.Infraestructure.Data.dll

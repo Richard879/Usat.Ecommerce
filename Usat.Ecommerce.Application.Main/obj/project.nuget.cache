@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "B9xjxtZaJXAdtjVXL5r2CdP4bFDHygCMDnMp5m2sEs0u+erVfotuEcDPvuRc4X7NqXOC1uy8ltKFj4f4CFe5YA==",
+  "success": true,
+  "projectFilePath": "F:\\Richard\\Py_Visual\\Usat.Ecommerce\\Usat.Ecommerce.Application.Main\\Usat.Ecommerce.Application.Main.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RICHARD\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\RICHARD\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

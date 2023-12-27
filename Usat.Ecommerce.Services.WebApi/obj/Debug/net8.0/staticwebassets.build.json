@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KfLbT5sl0yTHQUFrq6n9BucO8IUSSUGCPxpdssPH4KE=",
+  "Source": "Usat.Ecommerce.Services.WebApi",
+  "BasePath": "_content/Usat.Ecommerce.Services.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
