@@ -37,9 +37,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicios", "Servicios", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usat.Ecommerce.Services.WebApi", "Usat.Ecommerce.Services.WebApi\Usat.Ecommerce.Services.WebApi.csproj", "{4F9BA7D4-8997-42EA-8269-3DAC20089158}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usat.Ecommerce.Application.Validator", "Usat.Ecommerce.Application.Validator\Usat.Ecommerce.Application.Validator.csproj", "{0EFB5080-7DE0-4257-8092-80A226D19F2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usat.Ecommerce.Application.Validator", "Usat.Ecommerce.Application.Validator\Usat.Ecommerce.Application.Validator.csproj", "{0EFB5080-7DE0-4257-8092-80A226D19F2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usat.Ecommerce.Transversal.Logging", "Usat.Ecommerce.Transversal.Logging\Usat.Ecommerce.Transversal.Logging.csproj", "{288278BB-5B3F-418A-87BA-27ECF24B8C41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usat.Ecommerce.Transversal.Logging", "Usat.Ecommerce.Transversal.Logging\Usat.Ecommerce.Transversal.Logging.csproj", "{288278BB-5B3F-418A-87BA-27ECF24B8C41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{5B2B23A2-E8E0-49F5-89A0-8091B13B0EAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usat.Ecommerce.Application.Test", "Usat.Ecommerce.Application.Test\Usat.Ecommerce.Application.Test.csproj", "{FDFD7024-9147-4C63-ABF2-AA7F115BAC51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +107,10 @@ Global
 		{288278BB-5B3F-418A-87BA-27ECF24B8C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{288278BB-5B3F-418A-87BA-27ECF24B8C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{288278BB-5B3F-418A-87BA-27ECF24B8C41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDFD7024-9147-4C63-ABF2-AA7F115BAC51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFD7024-9147-4C63-ABF2-AA7F115BAC51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFD7024-9147-4C63-ABF2-AA7F115BAC51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFD7024-9147-4C63-ABF2-AA7F115BAC51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -122,6 +130,7 @@ Global
 		{4F9BA7D4-8997-42EA-8269-3DAC20089158} = {30C1FE56-9A47-4EE1-9E8A-BEE6F73B450A}
 		{0EFB5080-7DE0-4257-8092-80A226D19F2C} = {FFBD802E-0DEE-433B-9C27-6584D703766D}
 		{288278BB-5B3F-418A-87BA-27ECF24B8C41} = {CB401849-1697-49C2-8E22-F2839A408F16}
+		{FDFD7024-9147-4C63-ABF2-AA7F115BAC51} = {5B2B23A2-E8E0-49F5-89A0-8091B13B0EAF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21C8FD29-A599-4F74-9FC5-4660FBD1CAE6}

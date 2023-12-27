@@ -117,6 +117,30 @@ namespace Usat.Ecommerce.Application.Main
             }
             return response;
         }
+        public ResponsePagination<IEnumerable<CustomerDto>> GetAllWithPagination(int pageNumber, int pageSize)
+        {
+            var response = new ResponsePagination<IEnumerable<CustomerDto>>();
+            try
+            {
+                var count = _customersDomain.Count();
+                var customers = _customersDomain.GetAllWithPagination(pageNumber, pageSize);
+                response.Data = _mapper.Map<IEnumerable<CustomerDto>>(customers);
+                if (response.Data != null)
+                {
+                    response.PageNumer = pageNumber;
+                    response.TotalPages = (int)Math.Ceiling(count / (double)pageSize);
+                    response.TotalCount = count;
+                    response.IsSucces = true;
+                    response.Message = "Consulta paginada exitosa..!!";
+                }
+            }
+            catch (Exception e)
+            {
+                response.Message = e.Message;
+                _logger.LogError(e.Message);
+            }
+            return response;
+        }
         #endregion
 
         #region Métodos Asíncronos
@@ -211,6 +235,30 @@ namespace Usat.Ecommerce.Application.Main
             catch (Exception e)
             {
                 response.Message = e.Message;
+            }
+            return response;
+        }
+        public async Task<ResponsePagination<IEnumerable<CustomerDto>>> GetAllWithPaginationAsync(int pageNumber, int pageSize)
+        {
+            var response = new ResponsePagination<IEnumerable<CustomerDto>>();
+            try
+            {
+                var count = await _customersDomain.CountAsync();
+                var customers = await _customersDomain.GetAllWithPaginationAsync(pageNumber, pageSize);
+                response.Data = _mapper.Map<IEnumerable<CustomerDto>>(customers);
+                if (response.Data != null)
+                {
+                    response.PageNumer = pageNumber;
+                    response.TotalPages = (int)Math.Ceiling(count / (double)pageSize);
+                    response.TotalCount = count;
+                    response.IsSucces = true;
+                    response.Message = "Consulta paginada exitosa..!!";
+                }
+            }
+            catch (Exception e)
+            {
+                response.Message = e.Message;
+                _logger.LogError(e.Message);
             }
             return response;
         }

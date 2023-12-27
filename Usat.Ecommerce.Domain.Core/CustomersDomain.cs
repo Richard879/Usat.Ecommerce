@@ -35,6 +35,14 @@ namespace Usat.Ecommerce.Domain.Core
         {
             return _unitOfWork.Customers.GetAll();
         }
+        public IEnumerable<Customer> GetAllWithPagination(int pageNumber, int pageSize)
+        {
+            return _unitOfWork.Customers.GetAllWithPagination(pageNumber, pageSize);
+        }
+        public int Count()
+        {
+            return _unitOfWork.Customers.Count();
+        }
         #endregion
 
         #region Métodos Asíncronos
@@ -57,6 +65,14 @@ namespace Usat.Ecommerce.Domain.Core
         public async Task<IEnumerable<Customer>> GetAllAsync()
         {
             return await _unitOfWork.Customers.GetAllAsync();
+        }
+        public async Task<IEnumerable<Customer>> GetAllWithPaginationAsync(int pageNumber, int pageSize)
+        {
+            return await _unitOfWork.Customers.GetAllWithPaginationAsync(pageNumber, pageSize);
+        }
+        public async Task<int> CountAsync()
+        {
+            return await _unitOfWork.Customers.CountAsync();
         }
         #endregion
     }

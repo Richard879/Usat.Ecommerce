@@ -74,6 +74,16 @@ namespace Usat.Ecommerce.Services.WebApi.Controllers
 
             return BadRequest(response.Message);
         }
+
+        [HttpGet("GetAllWithPagination")]
+        public IActionResult GetAllWithPagination([FromQuery] int pageNumber, int pageSize)
+        {
+            var response = _customersAplication.GetAllWithPagination(pageNumber, pageSize);
+            if (response.IsSucces)
+                return Ok(response);
+
+            return BadRequest(response.Message);
+        }
         #endregion
 
         #region Metodos Asíncronos
@@ -129,6 +139,16 @@ namespace Usat.Ecommerce.Services.WebApi.Controllers
         public async Task<IActionResult> GetAlAsync()
         {
             var response = await _customersAplication.GetAllAsync();
+            if (response.IsSucces)
+                return Ok(response);
+
+            return BadRequest(response.Message);
+        }
+
+        [HttpGet("GetAllWithPaginationAsync")]
+        public async Task<IActionResult> GetAllWithPaginationAsync([FromQuery] int pageNumber, int pageSize)
+        {
+            var response = await _customersAplication.GetAllWithPaginationAsync(pageNumber, pageSize);
             if (response.IsSucces)
                 return Ok(response);
 

@@ -11,6 +11,7 @@ namespace Usat.Ecommerce.Application.Interface
         Response<bool> Delete(string customerId);
         Response<CustomerDto> Get(string customerId);
         Response<IEnumerable<CustomerDto>> GetAll();
+        ResponsePagination<IEnumerable<CustomerDto>> GetAllWithPagination(int pageNumber, int pageSize);
         #endregion
 
         #region Metodos Asíncronos
@@ -19,6 +20,7 @@ namespace Usat.Ecommerce.Application.Interface
         Task<Response<bool>> DeleteAsync(string customerId);
         Task<Response<CustomerDto>> GetAsync(string customerId);
         Task<Response<IEnumerable<CustomerDto>>> GetAllAsync();
+        Task<ResponsePagination<IEnumerable<CustomerDto>>> GetAllWithPaginationAsync(int pageNumber, int pageSize);
         #endregion
     }
 }

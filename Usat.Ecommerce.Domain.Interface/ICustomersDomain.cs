@@ -10,6 +10,8 @@ namespace Usat.Ecommerce.Domain.Interface
         bool Delete(string customerId);
         Customer Get(string customerId);
         IEnumerable<Customer> GetAll();
+        IEnumerable<Customer> GetAllWithPagination(int pageNumber, int pageSize);
+        int Count();
         #endregion
 
         #region Metodos Asíncronos
@@ -18,6 +20,8 @@ namespace Usat.Ecommerce.Domain.Interface
         Task<bool> DeleteAsync(string customerId);
         Task<Customer> GetAsync(string customerId);
         Task<IEnumerable<Customer>> GetAllAsync();
+        Task<IEnumerable<Customer>> GetAllWithPaginationAsync(int pageNumber, int pageSize);
+        Task<int> CountAsync();
         #endregion
     }
 }

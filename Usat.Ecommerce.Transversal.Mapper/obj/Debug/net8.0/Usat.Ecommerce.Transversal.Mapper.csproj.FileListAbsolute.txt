@@ -15,3 +15,4 @@ F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Transversal.Mapper\obj\Debug\
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Transversal.Mapper\obj\Debug\net8.0\refint\Usat.Ecommerce.Transversal.Mapper.dll
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Transversal.Mapper\obj\Debug\net8.0\Usat.Ecommerce.Transversal.Mapper.pdb
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Transversal.Mapper\obj\Debug\net8.0\ref\Usat.Ecommerce.Transversal.Mapper.dll
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Transversal.Mapper\obj\Debug\net8.0\Usat.Ecommerce.Transversal.Mapper.sourcelink.json
