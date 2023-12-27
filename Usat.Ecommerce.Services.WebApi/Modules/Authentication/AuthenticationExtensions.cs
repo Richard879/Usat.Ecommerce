@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
+﻿//using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Text;
 using Usat.Ecommerce.Services.WebApi.Helpers;
 
@@ -19,6 +18,7 @@ namespace Usat.Ecommerce.Services.WebApi.Modules.Authentication
             var Issuer = appSettings.Issuer;
             var Audience = appSettings.Audience;
 
+            /*
             services.AddAuthentication(x =>
             {
                 x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -57,6 +57,7 @@ namespace Usat.Ecommerce.Services.WebApi.Modules.Authentication
                     ClockSkew = TimeSpan.Zero
                 };
             });
+            */
             return services;
         }
     }
