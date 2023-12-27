@@ -13,6 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Usat.Ecommerce.Application.DTO\Usat.Ecommerce.Application.DTO.csproj" />
     <ProjectReference Include="..\Usat.Ecommerce.Application.Interface\Usat.Ecommerce.Application.Interface.csproj" />
+    <ProjectReference Include="..\Usat.Ecommerce.Application.Validator\Usat.Ecommerce.Application.Validator.csproj" />
     <ProjectReference Include="..\Usat.Ecommerce.Domain.Entity\Usat.Ecommerce.Domain.Entity.csproj" />
     <ProjectReference Include="..\Usat.Ecommerce.Domain.Interface\Usat.Ecommerce.Domain.Interface.csproj" />
     <ProjectReference Include="..\Usat.Ecommerce.Infraestructure.Interface\Usat.Ecommerce.Infraestructure.Interface.csproj" />

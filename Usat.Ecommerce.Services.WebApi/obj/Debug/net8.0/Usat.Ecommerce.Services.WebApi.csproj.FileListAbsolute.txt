@@ -100,3 +100,9 @@ F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\obj\Debug\net8.0\Usat.Ecommerce.Services.WebApi.sourcelink.json
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\FluentValidation.dll
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Usat.Ecommerce.Application.Validator.dll
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Usat.Ecommerce.Application.Validator.pdb
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Usat.Ecommerce.Transversal.Logging.dll
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Usat.Ecommerce.Transversal.Logging.pdb

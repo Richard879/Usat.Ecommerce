@@ -15,3 +15,4 @@ F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Application.Interface\obj\Deb
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Application.Interface\obj\Debug\net8.0\refint\Usat.Ecommerce.Application.Interface.dll
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Application.Interface\obj\Debug\net8.0\Usat.Ecommerce.Application.Interface.pdb
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Application.Interface\obj\Debug\net8.0\ref\Usat.Ecommerce.Application.Interface.dll
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Application.Interface\obj\Debug\net8.0\Usat.Ecommerce.Application.Interface.sourcelink.json

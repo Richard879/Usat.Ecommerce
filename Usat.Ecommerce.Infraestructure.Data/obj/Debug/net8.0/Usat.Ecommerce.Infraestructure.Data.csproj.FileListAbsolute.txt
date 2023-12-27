@@ -13,3 +13,4 @@ F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Data\obj\Debu
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Data\obj\Debug\net8.0\refint\Usat.Ecommerce.Infraestructure.Data.dll
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Data\obj\Debug\net8.0\Usat.Ecommerce.Infraestructure.Data.pdb
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Data\obj\Debug\net8.0\ref\Usat.Ecommerce.Infraestructure.Data.dll
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Data\obj\Debug\net8.0\Usat.Ecommerce.Infraestructure.Data.sourcelink.json

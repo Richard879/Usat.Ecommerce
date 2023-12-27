@@ -5,6 +5,8 @@ using Usat.Ecommerce.Domain.Interface;
 using Usat.Ecommerce.Infraestructure.Data;
 using Usat.Ecommerce.Infraestructure.Interface;
 using Usat.Ecommerce.Infraestructure.Repository;
+using Usat.Ecommerce.Transversal.Common;
+using Usat.Ecommerce.Transversal.Logging;
 
 namespace Usat.Ecommerce.Services.WebApi.Modules.Injection
 {
@@ -21,6 +23,7 @@ namespace Usat.Ecommerce.Services.WebApi.Modules.Injection
             services.AddScoped<IUsersApplication, UsersApplication>();
             services.AddScoped<IUsersDomain, UsersDomain>();
             services.AddScoped<IUsersRepository, UsersRepository>();
+            services.AddScoped(typeof(IAppLogger<>), typeof(LoggerAdapter<>));
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             return services;

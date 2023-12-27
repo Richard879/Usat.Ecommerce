@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "sp6pCjWOJ0xzys2txZMxK80fNAOLY3VUr/sOKgZC3PSkuP3ymGFAigzFM4V4+divIlgxTWF5AaNVNZAGK5luTQ==",
+  "dgSpecHash": "aL9+qX6Icvn2uASgEg64Bb04mXgdRWlIggHdjXMARMX5sFZJyZ60IKqYGmC1YQa9MK6yVkQcSWzbAaovzC4+PQ==",
   "success": true,
   "projectFilePath": "F:\\Richard\\Py_Visual\\Usat.Ecommerce\\Usat.Ecommerce.Application.Interface\\Usat.Ecommerce.Application.Interface.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\RICHARD\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512"
+  ],
   "logs": []
 }

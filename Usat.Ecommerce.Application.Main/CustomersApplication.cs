@@ -11,11 +11,13 @@ namespace Usat.Ecommerce.Application.Main
     {
         private readonly ICustomersDomain _customersDomain;
         private readonly IMapper _mapper;
+        private readonly IAppLogger<CustomersApplication> _logger;
 
-        public CustomersApplication(ICustomersDomain customersDomain, IMapper mapper)
+        public CustomersApplication(ICustomersDomain customersDomain, IMapper mapper, IAppLogger<CustomersApplication> logger)
         {
             _customersDomain = customersDomain;
             _mapper = mapper;
+            _logger = logger;
         }
 
         #region Métodos Síncronos
@@ -105,11 +107,13 @@ namespace Usat.Ecommerce.Application.Main
                 {
                     response.IsSucces = true;
                     response.Message = "Consulta exitosa..!!";
+                    _logger.LogInformation("Consulta exitosa..!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
+                _logger.LogError(e.Message);
             }
             return response;
         }

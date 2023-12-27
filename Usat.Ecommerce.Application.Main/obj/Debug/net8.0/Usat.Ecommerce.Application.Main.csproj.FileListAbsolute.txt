@@ -23,3 +23,6 @@ F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Application.Main\obj\Debug\ne
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Application.Main\obj\Debug\net8.0\ref\Usat.Ecommerce.Application.Main.dll
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Application.Main\bin\Debug\net8.0\Usat.Ecommerce.Infraestructure.Interface.dll
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Application.Main\bin\Debug\net8.0\Usat.Ecommerce.Infraestructure.Interface.pdb
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Application.Main\bin\Debug\net8.0\Usat.Ecommerce.Application.Validator.dll
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Application.Main\bin\Debug\net8.0\Usat.Ecommerce.Application.Validator.pdb
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Application.Main\obj\Debug\net8.0\Usat.Ecommerce.Application.Main.sourcelink.json

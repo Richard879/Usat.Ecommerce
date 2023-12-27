@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "/p4RilgtYiMo/4k9TSlQZZ2tSGZi0C4feUTeDGeTpJdnh5aBQFhZVZlHoiMMhsBofFTFX3L/lt/Gqo0XMIaJIw==",
+  "dgSpecHash": "+CErr0jJzykvenqI98cNN3bRWaa45wn8avtNRKCzcZSLQzqz0m3TorHxovoXKaCVEmmzPKv0W06cQ4tFJZ/w7Q==",
   "success": true,
   "projectFilePath": "F:\\Richard\\Py_Visual\\Usat.Ecommerce\\Usat.Ecommerce.Infraestructure.Data\\Usat.Ecommerce.Infraestructure.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RICHARD\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\RICHARD\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\RICHARD\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\RICHARD\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\RICHARD\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\RICHARD\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.2\\microsoft.data.sqlclient.5.1.2.nupkg.sha512",

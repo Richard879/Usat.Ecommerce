@@ -27,3 +27,6 @@ F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Repository\bi
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Repository\bin\Debug\net8.0\Usat.Ecommerce.Application.Main.pdb
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Repository\bin\Debug\net8.0\Usat.Ecommerce.Application.DTO.pdb
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Repository\bin\Debug\net8.0\Usat.Ecommerce.Domain.Interface.pdb
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Repository\bin\Debug\net8.0\Usat.Ecommerce.Application.Validator.dll
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Repository\bin\Debug\net8.0\Usat.Ecommerce.Application.Validator.pdb
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Infraestructure.Repository\obj\Debug\net8.0\Usat.Ecommerce.Infraestructure.Repository.sourcelink.json

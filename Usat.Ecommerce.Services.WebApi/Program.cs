@@ -4,6 +4,7 @@ using Usat.Ecommerce.Services.WebApi.Helpers;
 using Usat.Ecommerce.Services.WebApi.Modules.Feature;
 using Usat.Ecommerce.Services.WebApi.Modules.Injection;
 using Usat.Ecommerce.Services.WebApi.Modules.Mapper;
+using Usat.Ecommerce.Services.WebApi.Modules.Validator;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 
@@ -92,6 +93,7 @@ builder.Services.AddAuthentication(options =>
         ClockSkew = TimeSpan.Zero
     };
 });
+builder.Services.AddValidator();
 
 var app = builder.Build();
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/tNLbOqqvutbzyviA4DBBq1Z1DptiUuYOVyRt+z71wJxDBWpfrI9ZNMjzPqlLa5WAsr37szyJl2/qQdgsoGF8w==",
+  "dgSpecHash": "A3aZyBgQNFikd4GWXL1CgtXKMSWNG2Pof74c2s3xN8/KA1ejV2hJlee6etLheua6hgWWRqdpgvfCBkbqk8qfnw==",
   "success": true,
   "projectFilePath": "F:\\Richard\\Py_Visual\\Usat.Ecommerce\\Usat.Ecommerce.Infraestructure.Repository\\Usat.Ecommerce.Infraestructure.Repository.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\RICHARD\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\RICHARD\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\RICHARD\\.nuget\\packages\\dapper\\2.1.24\\dapper.2.1.24.nupkg.sha512",
+    "C:\\Users\\RICHARD\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\RICHARD\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "C:\\Users\\RICHARD\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\RICHARD\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\RICHARD\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.2\\microsoft.data.sqlclient.5.1.2.nupkg.sha512",

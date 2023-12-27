@@ -1,11 +1,7 @@
 ﻿using AutoMapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Usat.Ecommerce.Application.DTO;
 using Usat.Ecommerce.Application.Interface;
+using Usat.Ecommerce.Application.Validator;
 using Usat.Ecommerce.Domain.Interface;
 using Usat.Ecommerce.Transversal.Common;
 
@@ -15,22 +11,25 @@ namespace Usat.Ecommerce.Application.Main
     {
         private readonly IUsersDomain _userDomain;
         private readonly IMapper _mapper;
-        public UsersApplication(IUsersDomain userDomain, IMapper mapper)
+        private readonly UserDtoValidator _validator;
+
+        public UsersApplication(IUsersDomain userDomain, IMapper mapper, UserDtoValidator validator)
         {
             _userDomain = userDomain;
             _mapper = mapper;
+            _validator = validator;
         }
 
         public Response<UserDto> Authenticate(string username, string password)
         {
             var response = new Response<UserDto>();
-            //var validation = _usersDtoValidator.Validate(new UserDto() { UserName = username, Password = password });
-            /*if (!validation.IsValid)
+            var validation = _validator.Validate(new UserDto() { UserName = username, Password = password });
+            if (!validation.IsValid)
             {
                 response.Message = "Errores de validación";
-                //response.Errors = validation.Errors;
+                response.Errors = validation.Errors;
                 return response;
-            }*/
+            }
 
             try
             {
