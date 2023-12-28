@@ -56,7 +56,7 @@ namespace Usat.Ecommerce.Services.WebApi.Controllers
                 {
                     new Claim(ClaimTypes.Name, userDto.Data!.UserId.ToString())
                 }),
-                Expires = DateTime.UtcNow.AddMinutes(1),
+                Expires = DateTime.UtcNow.AddMinutes(5),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
                 Issuer = _appSettings.Issuer,
                 Audience = _appSettings.Audience

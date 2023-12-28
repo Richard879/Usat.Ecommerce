@@ -5,8 +5,10 @@ using Usat.Ecommerce.Services.WebApi.Modules.Feature;
 using Usat.Ecommerce.Services.WebApi.Modules.Injection;
 using Usat.Ecommerce.Services.WebApi.Modules.Mapper;
 using Usat.Ecommerce.Services.WebApi.Modules.Validator;
+using Usat.Ecommerce.Services.WebApi.Modules.Watch;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using WatchDog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -94,6 +96,7 @@ builder.Services.AddAuthentication(options =>
     };
 });
 builder.Services.AddValidator();
+builder.Services.addWatchDog(builder.Configuration);
 
 var app = builder.Build();
 
@@ -104,11 +107,18 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseWatchDogExceptionLogger();
 app.UseHttpsRedirection();
 app.UseCors("policyApiEcommerce");
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+
+app.UseWatchDog(conf =>
+{
+    conf.WatchPageUsername = builder.Configuration["WatchDog:WatchPageUsername"];
+    conf.WatchPagePassword = builder.Configuration["WatchDog:WatchPagePassword"];
+});
 
 app.Run();
 
