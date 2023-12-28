@@ -1,4 +1,4 @@
-using Microsoft.Extensions.Configuration;
+using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.DependencyInjection;
 using Usat.Ecommerce.Application.Interface;
 
@@ -8,19 +8,14 @@ namespace Usat.Ecommerce.Application.Test
     [TestClass]
     public class UsersApplicationTest
     {
-        private static IConfiguration? _configuration;
+        private static WebApplicationFactory<Program>? _factory;
         private static IServiceScopeFactory? _scopeFactory;
 
         [ClassInitialize]
         public static void Initialize(TestContext _)
         {
-            var builder = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json", true, true)
-                .AddEnvironmentVariables();
-            _configuration = builder.Build();
-
-            //var startup = new StartupBase(_configuration);
+            _factory = new CustomWebApplicationFactory();
+            _scopeFactory = _factory.Services.GetRequiredService<IServiceScopeFactory>();
         }
 
         [TestMethod]
@@ -32,7 +27,7 @@ namespace Usat.Ecommerce.Application.Test
             // Arrange
             var userName = string.Empty;
             var password = string.Empty;
-            var expected = "Errores de Validación";
+            var expected = "Errores de validación";
 
             // Act            
             var result = context!.Authenticate(userName, password);
@@ -49,7 +44,7 @@ namespace Usat.Ecommerce.Application.Test
             var context = scope.ServiceProvider.GetService<IUsersApplication>();
 
             // Arrange
-            var userName = "ALEX";
+            var userName = "RICHARD";
             var password = "123456";
             var expected = "Autenticación Exitosa!!!";
 
@@ -68,9 +63,9 @@ namespace Usat.Ecommerce.Application.Test
             var context = scope.ServiceProvider.GetService<IUsersApplication>();
 
             // Arrange
-            var userName = "ALEX";
+            var userName = "RICHARD";
             var password = "123456899";
-            var expected = "Usuario no existe";
+            var expected = "Usuario no existe!!!";
 
             // Act
             var result = context!.Authenticate(userName, password);

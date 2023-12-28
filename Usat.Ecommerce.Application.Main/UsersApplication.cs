@@ -36,7 +36,7 @@ namespace Usat.Ecommerce.Application.Main
                 var user = _userDomain.Authenticate(username, password);
                 response.Data = _mapper.Map<UserDto>(user);
                 response.IsSucces = true;
-                response.Message = "Autenticación Existosa!!!";
+                response.Message = "Autenticación Exitosa!!!";
             }
             catch (InvalidOperationException)
             {
