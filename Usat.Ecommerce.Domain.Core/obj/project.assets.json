@@ -24,19 +24,6 @@
         "runtime": {
           "bin/placeholder/Usat.Ecommerce.Domain.Interface.dll": {}
         }
-      },
-      "Usat.Ecommerce.Infraestructure.Interface/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Usat.Ecommerce.Domain.Entity": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Usat.Ecommerce.Infraestructure.Interface.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Usat.Ecommerce.Infraestructure.Interface.dll": {}
-        }
       }
     }
   },
@@ -50,18 +37,12 @@
       "type": "project",
       "path": "../Usat.Ecommerce.Domain.Interface/Usat.Ecommerce.Domain.Interface.csproj",
       "msbuildProject": "../Usat.Ecommerce.Domain.Interface/Usat.Ecommerce.Domain.Interface.csproj"
-    },
-    "Usat.Ecommerce.Infraestructure.Interface/1.0.0": {
-      "type": "project",
-      "path": "../Usat.Ecommerce.Infraestructure.Interface/Usat.Ecommerce.Infraestructure.Interface.csproj",
-      "msbuildProject": "../Usat.Ecommerce.Infraestructure.Interface/Usat.Ecommerce.Infraestructure.Interface.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Usat.Ecommerce.Domain.Entity >= 1.0.0",
-      "Usat.Ecommerce.Domain.Interface >= 1.0.0",
-      "Usat.Ecommerce.Infraestructure.Interface >= 1.0.0"
+      "Usat.Ecommerce.Domain.Interface >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -100,9 +81,6 @@
             },
             "F:\\Richard\\Py_Visual\\Usat.Ecommerce\\Usat.Ecommerce.Domain.Interface\\Usat.Ecommerce.Domain.Interface.csproj": {
               "projectPath": "F:\\Richard\\Py_Visual\\Usat.Ecommerce\\Usat.Ecommerce.Domain.Interface\\Usat.Ecommerce.Domain.Interface.csproj"
-            },
-            "F:\\Richard\\Py_Visual\\Usat.Ecommerce\\Usat.Ecommerce.Infraestructure.Interface\\Usat.Ecommerce.Infraestructure.Interface.csproj": {
-              "projectPath": "F:\\Richard\\Py_Visual\\Usat.Ecommerce\\Usat.Ecommerce.Infraestructure.Interface\\Usat.Ecommerce.Infraestructure.Interface.csproj"
             }
           }
         }

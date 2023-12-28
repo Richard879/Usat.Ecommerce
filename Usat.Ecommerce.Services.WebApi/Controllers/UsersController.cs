@@ -6,7 +6,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Usat.Ecommerce.Application.DTO;
-using Usat.Ecommerce.Application.Interface;
+using Usat.Ecommerce.Application.Interface.UseCases;
 using Usat.Ecommerce.Services.WebApi.Helpers;
 using Usat.Ecommerce.Transversal.Common;
 

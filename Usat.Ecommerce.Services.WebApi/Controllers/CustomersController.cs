@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Usat.Ecommerce.Application.DTO;
-using Usat.Ecommerce.Application.Interface;
+using Usat.Ecommerce.Application.Interface.UseCases;
 
 namespace Usat.Ecommerce.Services.WebApi.Controllers
 {

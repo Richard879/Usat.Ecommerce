@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.DependencyInjection;
-using Usat.Ecommerce.Application.Interface;
+using Usat.Ecommerce.Application.Interface.UseCases;
 
 
 namespace Usat.Ecommerce.Application.Test

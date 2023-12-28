@@ -9,7 +9,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Usat.Ecommerce.Domain.Entity\Usat.Ecommerce.Domain.Entity.csproj" />
     <ProjectReference Include="..\Usat.Ecommerce.Domain.Interface\Usat.Ecommerce.Domain.Interface.csproj" />
-    <ProjectReference Include="..\Usat.Ecommerce.Infraestructure.Interface\Usat.Ecommerce.Infraestructure.Interface.csproj" />
   </ItemGroup>
 
 </Project>

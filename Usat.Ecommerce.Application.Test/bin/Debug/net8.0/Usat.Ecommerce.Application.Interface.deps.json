@@ -9,6 +9,7 @@
       "Usat.Ecommerce.Application.Interface/1.0.0": {
         "dependencies": {
           "Usat.Ecommerce.Application.DTO": "1.0.0",
+          "Usat.Ecommerce.Domain.Entity": "1.0.0",
           "Usat.Ecommerce.Transversal.Common": "1.0.0"
         },
         "runtime": {
@@ -26,6 +27,11 @@
       "Usat.Ecommerce.Application.DTO/1.0.0": {
         "runtime": {
           "Usat.Ecommerce.Application.DTO.dll": {}
+        }
+      },
+      "Usat.Ecommerce.Domain.Entity/1.0.0": {
+        "runtime": {
+          "Usat.Ecommerce.Domain.Entity.dll": {}
         }
       },
       "Usat.Ecommerce.Transversal.Common/1.0.0": {
@@ -52,6 +58,11 @@
       "hashPath": "fluentvalidation.11.9.0.nupkg.sha512"
     },
     "Usat.Ecommerce.Application.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Usat.Ecommerce.Domain.Entity/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Usat.Ecommerce.Application.DTO\Usat.Ecommerce.Application.DTO.csproj" />
+    <ProjectReference Include="..\Usat.Ecommerce.Domain.Entity\Usat.Ecommerce.Domain.Entity.csproj" />
     <ProjectReference Include="..\Usat.Ecommerce.Transversal.Common\Usat.Ecommerce.Transversal.Common.csproj" />
   </ItemGroup>
 

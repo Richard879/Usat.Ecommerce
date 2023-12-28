@@ -14,10 +14,10 @@
           "Swashbuckle.AspNetCore.Swagger": "6.5.0",
           "Swashbuckle.AspNetCore.SwaggerGen": "6.5.0",
           "Usat.Ecommerce.Application.Interface": "1.0.0",
-          "Usat.Ecommerce.Application.Main": "1.0.0",
+          "Usat.Ecommerce.Application.UseCases": "1.0.0",
           "Usat.Ecommerce.Application.Validator": "1.0.0",
-          "Usat.Ecommerce.Domain.Core": "1.0.0",
-          "Usat.Ecommerce.Infraestructure.Repository": "1.0.0",
+          "Usat.Ecommerce.Persistence.Data": "1.0.0",
+          "Usat.Ecommerce.Persistence.Repository": "1.0.0",
           "Usat.Ecommerce.Transversal.Logging": "1.0.0",
           "Usat.Ecommerce.Transversal.Mapper": "1.0.0"
         },
@@ -2232,25 +2232,24 @@
       "Usat.Ecommerce.Application.Interface/1.0.0": {
         "dependencies": {
           "Usat.Ecommerce.Application.DTO": "1.0.0",
+          "Usat.Ecommerce.Domain.Entity": "1.0.0",
           "Usat.Ecommerce.Transversal.Common": "1.0.0"
         },
         "runtime": {
           "Usat.Ecommerce.Application.Interface.dll": {}
         }
       },
-      "Usat.Ecommerce.Application.Main/1.0.0": {
+      "Usat.Ecommerce.Application.UseCases/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.1",
           "Usat.Ecommerce.Application.DTO": "1.0.0",
           "Usat.Ecommerce.Application.Interface": "1.0.0",
           "Usat.Ecommerce.Application.Validator": "1.0.0",
           "Usat.Ecommerce.Domain.Entity": "1.0.0",
-          "Usat.Ecommerce.Domain.Interface": "1.0.0",
-          "Usat.Ecommerce.Infraestructure.Interface": "1.0.0",
           "Usat.Ecommerce.Transversal.Common": "1.0.0"
         },
         "runtime": {
-          "Usat.Ecommerce.Application.Main.dll": {}
+          "Usat.Ecommerce.Application.UseCases.dll": {}
         }
       },
       "Usat.Ecommerce.Application.Validator/1.0.0": {
@@ -2263,30 +2262,12 @@
           "Usat.Ecommerce.Application.Validator.dll": {}
         }
       },
-      "Usat.Ecommerce.Domain.Core/1.0.0": {
-        "dependencies": {
-          "Usat.Ecommerce.Domain.Entity": "1.0.0",
-          "Usat.Ecommerce.Domain.Interface": "1.0.0",
-          "Usat.Ecommerce.Infraestructure.Interface": "1.0.0"
-        },
-        "runtime": {
-          "Usat.Ecommerce.Domain.Core.dll": {}
-        }
-      },
       "Usat.Ecommerce.Domain.Entity/1.0.0": {
         "runtime": {
           "Usat.Ecommerce.Domain.Entity.dll": {}
         }
       },
-      "Usat.Ecommerce.Domain.Interface/1.0.0": {
-        "dependencies": {
-          "Usat.Ecommerce.Domain.Entity": "1.0.0"
-        },
-        "runtime": {
-          "Usat.Ecommerce.Domain.Interface.dll": {}
-        }
-      },
-      "Usat.Ecommerce.Infraestructure.Data/1.0.0": {
+      "Usat.Ecommerce.Persistence.Data/1.0.0": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "5.1.2",
           "Microsoft.EntityFrameworkCore": "8.0.0",
@@ -2297,29 +2278,19 @@
           "Usat.Ecommerce.Transversal.Common": "1.0.0"
         },
         "runtime": {
-          "Usat.Ecommerce.Infraestructure.Data.dll": {}
+          "Usat.Ecommerce.Persistence.Data.dll": {}
         }
       },
-      "Usat.Ecommerce.Infraestructure.Interface/1.0.0": {
-        "dependencies": {
-          "Usat.Ecommerce.Domain.Entity": "1.0.0"
-        },
-        "runtime": {
-          "Usat.Ecommerce.Infraestructure.Interface.dll": {}
-        }
-      },
-      "Usat.Ecommerce.Infraestructure.Repository/1.0.0": {
+      "Usat.Ecommerce.Persistence.Repository/1.0.0": {
         "dependencies": {
           "Dapper": "2.1.24",
           "Microsoft.Extensions.Configuration": "8.0.0",
           "Usat.Ecommerce.Application.Interface": "1.0.0",
-          "Usat.Ecommerce.Application.Main": "1.0.0",
-          "Usat.Ecommerce.Infraestructure.Data": "1.0.0",
-          "Usat.Ecommerce.Infraestructure.Interface": "1.0.0",
+          "Usat.Ecommerce.Persistence.Data": "1.0.0",
           "Usat.Ecommerce.Transversal.Common": "1.0.0"
         },
         "runtime": {
-          "Usat.Ecommerce.Infraestructure.Repository.dll": {}
+          "Usat.Ecommerce.Persistence.Repository.dll": {}
         }
       },
       "Usat.Ecommerce.Transversal.Common/1.0.0": {
@@ -4062,7 +4033,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Usat.Ecommerce.Application.Main/1.0.0": {
+    "Usat.Ecommerce.Application.UseCases/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -4072,32 +4043,17 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Usat.Ecommerce.Domain.Core/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Usat.Ecommerce.Domain.Entity/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Usat.Ecommerce.Domain.Interface/1.0.0": {
+    "Usat.Ecommerce.Persistence.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Usat.Ecommerce.Infraestructure.Data/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Usat.Ecommerce.Infraestructure.Interface/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Usat.Ecommerce.Infraestructure.Repository/1.0.0": {
+    "Usat.Ecommerce.Persistence.Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
