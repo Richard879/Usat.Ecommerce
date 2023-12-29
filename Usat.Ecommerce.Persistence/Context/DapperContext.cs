@@ -2,7 +2,7 @@
 using System.Data;
 using Microsoft.Data.SqlClient;
 
-namespace Usat.Ecommerce.Persistence.Data
+namespace Usat.Ecommerce.Persistence.Context
 {
     public class DapperContext
     {

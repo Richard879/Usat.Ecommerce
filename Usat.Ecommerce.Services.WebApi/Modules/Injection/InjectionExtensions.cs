@@ -1,8 +1,8 @@
 ﻿using Usat.Ecommerce.Application.Interface.Persistence;
 using Usat.Ecommerce.Application.Interface.UseCases;
 using Usat.Ecommerce.Application.UseCases;
-using Usat.Ecommerce.Persistence.Data;
-using Usat.Ecommerce.Persistence.Repository;
+using Usat.Ecommerce.Persistence.Context;
+using Usat.Ecommerce.Persistence.Repositories;
 using Usat.Ecommerce.Transversal.Common;
 using Usat.Ecommerce.Transversal.Logging;
 
