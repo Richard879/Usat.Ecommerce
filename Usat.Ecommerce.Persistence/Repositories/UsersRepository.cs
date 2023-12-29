@@ -2,7 +2,7 @@
 using System.Data;
 using Usat.Ecommerce.Application.Interface.Persistence;
 using Usat.Ecommerce.Domain.Entity;
-using Usat.Ecommerce.Persistence.Data;
+using Usat.Ecommerce.Persistence.Context;
 
 namespace Usat.Ecommerce.Persistence.Repositories
 {

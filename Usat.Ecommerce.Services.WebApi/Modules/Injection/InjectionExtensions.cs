@@ -1,9 +1,4 @@
-﻿using Usat.Ecommerce.Application.Interface.Persistence;
-using Usat.Ecommerce.Application.Interface.UseCases;
-using Usat.Ecommerce.Application.UseCases;
-using Usat.Ecommerce.Persistence.Context;
-using Usat.Ecommerce.Persistence.Repositories;
-using Usat.Ecommerce.Transversal.Common;
+﻿using Usat.Ecommerce.Transversal.Common;
 using Usat.Ecommerce.Transversal.Logging;
 
 namespace Usat.Ecommerce.Services.WebApi.Modules.Injection
@@ -12,15 +7,8 @@ namespace Usat.Ecommerce.Services.WebApi.Modules.Injection
     {
         public static IServiceCollection AddInjection(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddSingleton<IConfiguration>(configuration);
-            services.AddSingleton<DapperContext>();
-            services.AddScoped<ICustomersApplication, CustomersApplication>();
-            services.AddScoped<ICustomersRepository, CustomersRepository>();
-            services.AddScoped<IUsersApplication, UsersApplication>();
-            services.AddScoped<IUsersRepository, UsersRepository>();
+            services.AddSingleton<IConfiguration>(configuration);        
             services.AddScoped(typeof(IAppLogger<>), typeof(LoggerAdapter<>));
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
-
             return services;
         }
     }

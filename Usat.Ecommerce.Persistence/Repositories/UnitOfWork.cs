@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Usat.Ecommerce.Application.Interface.Persistence;
+﻿using Usat.Ecommerce.Application.Interface.Persistence;
 
 namespace Usat.Ecommerce.Persistence.Repositories
 {

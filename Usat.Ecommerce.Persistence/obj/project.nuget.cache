@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+/T34fJtLwx2R0HqcAa1CGwh9Bby7eheOOmtoqBhO798HuoDZJAbnb9v7rG4dUazQQmm4/meX8O6wn+UfIr6hg==",
+  "dgSpecHash": "OIjH0mxk2pZgBOa8rG5YorPyUz7tjPtg6m6a3D3NgzgVp/9oqk2zPTO5Pf8x82FIpvYuUIeWZMUi3H+f6Ry49g==",
   "success": true,
   "projectFilePath": "F:\\Richard\\Py_Visual\\Usat.Ecommerce\\Usat.Ecommerce.Persistence\\Usat.Ecommerce.Persistence.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,8 @@
     "C:\\Users\\RICHARD\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.1\\microsoft.data.sqlclient.sni.runtime.5.1.1.nupkg.sha512",
     "C:\\Users\\RICHARD\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\RICHARD\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\RICHARD\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\RICHARD\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\RICHARD\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\RICHARD\\.nuget\\packages\\microsoft.identity.client\\4.47.2\\microsoft.identity.client.4.47.2.nupkg.sha512",
     "C:\\Users\\RICHARD\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\2.19.3\\microsoft.identity.client.extensions.msal.2.19.3.nupkg.sha512",

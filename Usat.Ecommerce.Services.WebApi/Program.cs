@@ -9,6 +9,8 @@ using Usat.Ecommerce.Services.WebApi.Modules.Watch;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using WatchDog;
+using Usat.Ecommerce.Persistence;
+using Usat.Ecommerce.Application.UseCases;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,6 +32,8 @@ var Audience = appSettings.Audience;
 
 builder.Services.AddMapper();
 builder.Services.AddFeature(builder.Configuration);
+builder.Services.AddPersistenceServices(builder.Configuration);
+builder.Services.AddApplicationServices(builder.Configuration);
 builder.Services.AddInjection(builder.Configuration);
 builder.Services.AddSwaggerGen(option =>
 {

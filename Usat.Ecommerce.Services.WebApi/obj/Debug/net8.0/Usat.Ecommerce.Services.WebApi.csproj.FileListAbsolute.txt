@@ -52,10 +52,6 @@ F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Azure.Identity.dll
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -129,8 +125,6 @@ F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Usat.Ecommerce.Application.UseCases.dll
-F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Usat.Ecommerce.Persistence.Data.dll
-F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Usat.Ecommerce.Persistence.Repository.dll
 F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Usat.Ecommerce.Application.UseCases.pdb
-F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Usat.Ecommerce.Persistence.Data.pdb
-F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Usat.Ecommerce.Persistence.Repository.pdb
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Usat.Ecommerce.Persistence.dll
+F:\Richard\Py_Visual\Usat.Ecommerce\Usat.Ecommerce.Services.WebApi\bin\Debug\net8.0\Usat.Ecommerce.Persistence.pdb
