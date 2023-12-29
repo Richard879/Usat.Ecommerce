@@ -5,7 +5,7 @@ using Usat.Ecommerce.Application.Interface.UseCases;
 using Usat.Ecommerce.Application.Validator;
 using Usat.Ecommerce.Transversal.Common;
 
-namespace Usat.Ecommerce.Application.UseCases
+namespace Usat.Ecommerce.Application.UseCases.Users
 {
     public class UsersApplication : IUsersApplication
     {

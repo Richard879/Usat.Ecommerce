@@ -5,15 +5,15 @@ using Usat.Ecommerce.Application.Interface.UseCases;
 using Usat.Ecommerce.Domain.Entity;
 using Usat.Ecommerce.Transversal.Common;
 
-namespace Usat.Ecommerce.Application.UseCases
+namespace Usat.Ecommerce.Application.UseCases.Customers
 {
-    public class CustomersApplication :ICustomersApplication
+    public class CustomersApplication : ICustomersApplication
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
         private readonly IAppLogger<CustomersApplication> _logger;
 
-        public CustomersApplication(IUnitOfWork unitOfWork,  IMapper mapper, IAppLogger<CustomersApplication> logger)
+        public CustomersApplication(IUnitOfWork unitOfWork, IMapper mapper, IAppLogger<CustomersApplication> logger)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
